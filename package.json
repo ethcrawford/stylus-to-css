@@ -1,0 +1,14 @@
+{
+  "name": "stylus-to-css",
+  "version": "2.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "stylus input.styl --out output.css",
+    "watch": "stylus --watch --out output.css",
+    "build": "stylus --compress input.styl --out output.css"
+  },
+  "dependencies": {
+    "stylus": "^0.54.5"
+  }
+}
